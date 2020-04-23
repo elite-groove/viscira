@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'relax-home',
+    loadChildren: () => import('./pages/relax-home/relax-home.module').then( m => m.RelaxHomePageModule)
+  },
 ];
 
 @NgModule({

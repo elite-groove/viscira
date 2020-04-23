@@ -25,3 +25,19 @@
 #container a {
   text-decoration: none;
 }
+
+// Do not modify rather adapt to the container any content. This is the only parent scrollable page.
+.softblue-play {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  background: #ff693b;
+  width: 145px;
+  height: 145px;
+  font-size: 3rem;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
