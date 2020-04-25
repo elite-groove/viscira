@@ -1,6 +1,9 @@
 {
   "name": "viscira-relax",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.16.2"
+  },
   "author": "Viscira, LLC",
   "homepage": "viscira.com",
   "scripts": {
