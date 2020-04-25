@@ -6,7 +6,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build && ng serve -c local",
+    "build": "ng build && ng serve -c prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
