@@ -6,7 +6,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "HOST=viscira.herokuapp.com && echo ${PORT} && echo ${HOST} && ng serve --port ${PORT}",
+    "build": "HOST=viscira.herokuapp.com && echo ${PORT} && echo ${HOST} && ng serve --port ${PORT} --host ${HOST}",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
