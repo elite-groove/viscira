@@ -7,12 +7,7 @@
   "author": "Viscira, LLC",
   "homepage": "viscira.com",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng serve --port ${PORT} --host=${HOST}",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "start": "ng serve --port ${PORT} --host=${HOST}"
   },
   "private": false,
   "dependencies": {
