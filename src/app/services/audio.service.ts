@@ -40,7 +40,7 @@ export class AudioService {
   }
 
   loadAudioEssentials() {
-    const audioElem = new Audio('https://onlineradiobox.com/json/us/nonstopoldies/play?platform=web');
+    const audioElem = new Audio('http://nl04.mp3pro.xyz/2216d00d5a41861f1f2d2/Hey%20Song%20-%20Rock%20n%20roll%20part%202-%20Gary%20Glitter.mp3');
     audioElem.style.visibility = 'hidden';
     audioElem.style.position = 'absolute';
 
