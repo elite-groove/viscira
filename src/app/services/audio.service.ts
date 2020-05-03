@@ -40,7 +40,7 @@ export class AudioService {
   }
 
   loadAudioEssentials() {
-    const audioElem = new Audio('http://stream.dancewave.online:8080/retrodance.mp3');
+    const audioElem = new Audio('https://listen.181fm.com/181-technoclub_128k.mp3');
     audioElem.style.visibility = 'hidden';
     audioElem.style.position = 'absolute';
 
