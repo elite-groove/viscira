@@ -19,7 +19,7 @@ export class AudioService {
     // load mp3 stream into DOM
     this.audioSource.subscribe(audioElem => {
       this.audioMemAllocation = audioElem;
-      this.audioMemAllocation ? document.body.appendChild(this.audioMemAllocation) : console.warn('no source found.');
+      this.audioMemAllocation ? (document.body.appendChild(this.audioMemAllocation)) : console.warn('no source found.');
     });
 
     // update global status of the audio play/pause state
@@ -40,7 +40,7 @@ export class AudioService {
   }
 
   loadAudioEssentials() {
-    const audioElem = new Audio('http://nl04.mp3pro.xyz/2216d00d5a41861f1f2d2/Hey%20Song%20-%20Rock%20n%20roll%20part%202-%20Gary%20Glitter.mp3');
+    const audioElem = new Audio('http://stream.dancewave.online:8080/retrodance.mp3');
     audioElem.style.visibility = 'hidden';
     audioElem.style.position = 'absolute';
 

@@ -4,6 +4,7 @@ import { Platform } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AudioService } from './services/audio.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -15,10 +16,11 @@ export class AppComponent {
     private platform: Platform,
     private splashScreen: SplashScreen,
     private statusBar: StatusBar,
-    private audioService: AudioService
+    private audioService: AudioService,
+    private activatedRoute: ActivatedRoute
   ) {
     this.initializeApp();
-    this.audioService.audioSource.subscribe(() => {  
+    this.audioService.audioSource.subscribe(() => {
       console.log(this.audioService.audioMemAllocation);
     });
   }
